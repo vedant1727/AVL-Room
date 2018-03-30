@@ -1,0 +1,287 @@
+/*---HELPER CLASSES--*/
+.avl-container{
+	padding-left:121px;
+	padding-right:121px;
+}
+
+.theme-color-bg{
+	background-color:#49baff!important;
+}
+
+.btn{
+	padding:0 1rem !important;
+}
+
+#img-three{
+	display:none;
+}
+
+#img-four{
+	display:none;
+}
+
+body{
+	font-family: 'Roboto', sans-serif;
+}
+
+.m-0{
+	margin:0px !important;
+}
+
+/*---TAGLINES--*/
+
+.tagline h4{
+	text-align:left;
+	color:#656464;
+	margin:5.46rem 0 1rem 0 !important;
+	font-weight:600;
+	font-size:3.25rem !important;
+}
+
+.tagline h4>span{
+	color:#49baff;
+}
+
+.tagline h3{
+	text-align:left;
+	color:#656464;
+	font-weight:300;
+	margin:0 0 40px 0 !important;
+	line-height:1.2;
+	font-size:2.625rem !important;
+}
+
+.tagline h3>span{
+	color:#49baff;
+}
+
+p{
+	font-size: 1.0625rem;
+}
+
+h4{
+	color: #646464;
+	font-size: 1.95rem;
+}
+
+/*---BUTTONS--*/
+
+.btn{
+	background-color: #49baff;
+	font-color: white;
+	font-weight: 700;
+ }
+
+.btn:hover{
+	background-color: #49baff;
+	font-color: white;
+	font-weight: 700;
+    box-shadow: 0 4px 16px 0 rgba(0,0,0,0.35);
+ }
+ 
+.next {
+    color: white;
+    background-color: #49baff;
+    border: none;
+    border-radius: 2px;
+    font-size: 1rem;
+    padding: 8px 16px;
+    box-shadow: 0 2px 8px 0 rgba(0,0,0,0.2);
+    margin-bottom: 10px;
+    transition: 0.3s;
+}
+
+.next:hover{
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.35);
+	transition: 0.3s;
+}
+
+.next:active {
+	transform: translateY(4px);
+}
+
+.next:after {
+  	background-color: #49baff!important;
+}
+
+.next i {
+    margin: 2px 0px 0px 8px!important;
+}
+
+.fa {
+    font-size: 1.3rem !important;
+}
+
+button{
+	color: white;
+	background-color: #49baff;
+	border: none;
+	border-radius: 5px;
+	font-size: 1.3125rem;
+	padding: 4px 13px;
+	box-shadow: 0 2px 8px 0 rgba(0,0,0,0.2);
+	margin: 0 60px 10px 40px;
+	transition: 0.3s;
+}
+
+button:hover{
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.35);
+	transition: 0.3s;
+}
+
+button:active {
+	transform: translateY(4px);
+}
+
+button:after {
+  	background-color: #49baff!important;
+}
+
+button i{
+	margin: 4px 6px 0 2px!important;
+}
+
+.button-center{
+  margin-left: 36%;
+
+}
+
+.sub-icon{
+	font-size: 1.25rem;
+	padding-left:10px;
+}
+/*---FORM--*/
+
+form{
+	margin-top:15px !important;
+}
+
+input{
+	width:80% !important;
+}
+
+.form-border{
+	border: 1px solid #e0e0e0;
+	border-top-right-radius: 150px; 
+    padding:20px 20px 15px 40px !important; 
+	margin: 10px 0;
+}
+
+.form-border h4{
+	color:#8e8e8e;
+}
+
+.header-underline{
+    width:3rem; 
+    background-color: #49baff; 
+    padding-top: 1px;
+    margin-top: -5px;
+}
+
+.hide-pop{
+	display: none;
+}
+
+/*---TEXTAREAR--*/
+textarea{
+	padding: 0px!important;
+}
+
+textarea.materialize-textarea:focus:not([readonly]) {
+    border-bottom: 1px solid #ffffff;
+    box-shadow: 0 1px 0 0 #49baff;
+}
+
+/*---RADIO BUTTONS--*/
+[type="radio"].with-gap:checked + label:after {
+	background-color: #49baff!important;
+}
+
+[type="radio"].with-gap:checked + label:before, [type="radio"].with-gap:checked + label:after {
+	border: 2px solid #49baff!important;
+}
+
+[type="radio"].with-gap:checked + label{
+	color: #49baff;
+}
+
+/*---CHECK-BOX--*/
+
+[type="checkbox"].filled-in:checked + label:after {
+	background-color: #49baff!important;
+}
+
+.check-pos{
+	top: 8px;	
+}
+
+
+/*---OPTIONS--*/
+.option-margin{
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
+.pref-padding{
+	margin: 0px;
+}
+
+label{
+	color: #656464;
+}
+
+.dropdown-content li > span{
+	color: #49baff;
+}
+
+/*---TEXT AREA--*/
+
+
+input[type=text]:focus:not([readonly]) {
+    border-bottom: 1px solid #ffffff;
+    box-shadow: 0 1px 0 0 #49baff;
+}
+
+@media only screen and (max-width: 600px) {
+    .avl-container {
+	padding-left:5%;
+	padding-right:7%;    }
+
+	.form-border {
+	border: 1px solid #e0e0e0;
+	border-top-right-radius: 90px; 
+    padding:20px 10px 15px 20px !important; 
+	margin: 10px 3% 10px 0;}
+
+	input {
+	width:95% !important;}
+
+	.tagline h4 {
+	color:#656464;
+	margin:2.7rem 0 0.7rem 0 !important;
+	font-size:1.8rem !important;
+	}
+
+	.tagline h4>span {
+		color:#49baff;
+	}
+
+	.tagline h3 {
+		text-align:left;
+		color:#656464;
+		font-weight:300;
+		margin:0 0 20px 0 !important;
+		line-height:1.2;
+		font-size:2rem !important;
+	}
+
+	.tagline h3>span {
+		color:#49baff;
+	}
+}
+
+/*--CALENDER--*/
+
+.calendar td{
+	padding:0px !important;
+}

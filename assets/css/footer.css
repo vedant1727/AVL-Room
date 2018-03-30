@@ -1,0 +1,24 @@
+.pd-0{
+	padding:0px!important;
+}
+
+.page-footer{
+	background-color:#49baff!important;
+}
+
+.page-footer{
+	font-weight:600!important;
+}
+
+.page-footer p{
+	padding-right: 30px;
+    margin-top: 10px!important;
+}
+
+.page-footer li a{
+	color:white!important;
+}
+
+.tagicon img{
+	margin:0 3px;
+}

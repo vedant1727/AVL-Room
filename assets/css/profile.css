@@ -1,0 +1,87 @@
+/*---HELPER CLASSES--*/
+.avl-container{
+	padding-left:8.96%;
+	padding-right:8.96%;
+}
+
+body{
+	font-family: 'Roboto', sans-serif;
+}
+
+/*---TAGLINES--*/
+
+.tagline h4{
+	text-align:left;
+	color:#656464;
+	margin:5.46rem 0 1rem 0 ;
+    font-weight:600;
+}
+
+.tagline h4>span{
+	color:#49baff;
+}
+
+.tagline p{
+	text-align:left;
+	color:#656464;
+	font-weight:300;
+	margin:0px !important;
+	line-height:1.2;
+	font-size:2rem !important;
+}
+
+.tagline p>span{
+	
+	color:#49baff;
+}
+
+/*--Edit Form--*/
+
+.edit-form{
+	margin-top:2.8rem;
+	border: 1px solid #e0e0e0;
+    border-top-right-radius: 115px;
+	padding-top:3rem !important;
+	padding-right: 3rem !important;
+	padding-left: 1.5rem !important;
+	padding-bottom: 1.5rem !important;
+}
+
+input[type=text]:disabled + label, input[type=password]:disabled + label{
+	color:#49baff !important;
+}
+
+input[type=text]:focus + label, input[type=password]:focus + label{
+	color:#49baff !important;
+}
+
+.input-field label:not(.label-icon).active {
+    font-size: 1.2rem !important;
+}
+
+.input-field label {
+    color: #49baff!important;
+}
+
+input[type=text]:disabled,input[type=password]:disabled{
+	color: #65647d !important;
+    border-bottom: 1px dotted #e0e0e0;
+}
+
+.btn{
+	padding:0 1.4rem !important;
+	background-color: #49baff!important;
+	text-transform: none !important;
+}
+
+#enable-edit{
+	display:inline-block;
+}
+
+#save-change{
+	display:none;
+}
+
+#cancel-edit{
+	display:none;
+}

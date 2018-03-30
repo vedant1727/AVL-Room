@@ -1,0 +1,390 @@
+/*---HELPERS--*/
+.no-margin{
+	margin-bottom: 0px;
+}
+
+.tagline p{
+	font-size:22px;
+	color:#656464;
+}
+
+.tagline p>span{
+	color:#49baff;
+}
+
+.theme-color-bg{
+	background-color:#49baff!important;
+}
+
+.pos-top{
+	position: relative !important;
+	top: 70px !important;
+}
+
+.avl-container{
+	padding-left:8.96%;
+	padding-right:8.96%;
+}
+
+.no-padding-top{
+	padding-top: 0px!important;
+	padding-bottom: 0px!important;
+}
+
+a{
+	text-decoration:none!important;
+	color:black!important;
+}
+
+.txt-center{
+	text-align:center;
+}
+
+.avl-c-heading p{
+	margin:0.5rem 0 0.1rem 0 !important;
+	font-size:1rem;
+	color:#656464!important;
+}
+
+.avl-c-heading div{
+	 background-color:#49baff;
+	 height:1px;
+	 width:1.9rem;
+}
+
+/*---SEARCH BAR--*/
+
+.search-bar{
+	border: 1px solid #e0e0e0;
+	border-radius: 3px;
+	padding:0.7rem;
+}
+
+.sb{margin:0 auto;}
+	
+.search-bar h6{
+	color: #9e9ea1;	
+}
+.search-bar .row{
+	margin-bottom:0px;
+}
+
+.search-bar button{
+	margin:1.35rem auto !important; 
+	color: white;
+	background-color: #49baff;
+	border: none;
+	font-size: 1.2rem;
+	padding: 0.2rem 0.8rem;
+	border-radius: 3px;
+}
+
+.search-bar button:hover{
+		box-shadow: 0 1px 4px 0 rgba(0,0,0,0.2);
+}
+
+.search-bar button:active {
+  transform: translateY(4px);
+}
+
+.search-bar button i{
+	position: relative;
+	top: 4px;
+}
+
+.search-bar input:focus + label {
+ color: #eee !important;
+}
+
+.search-bar input:focus {
+ border-bottom:none !important;
+ box-shadow: 0 0 0 0 #eee !important;
+}
+
+.search-bar input{
+	border-bottom:0px !important;
+	border-radius:3px !important;
+	margin-bottom:0px !important;
+}
+
+/*--UNDERLINED HEADINGS--*/
+
+.avl-heading h4{
+	margin:4.46rem 0 1rem 0 !important;
+}
+
+.avl-heading div{
+	 background-color:#49baff;
+	 height:2px;
+	 width:3.2rem;
+}
+
+/*--LOGIN SIGN UP MODALS--*/
+.modal-button{
+	color: white;
+	background-color: #49baff;
+	margin-bottom: 20px!important;
+}
+
+.input-field.col.s12 {
+    padding: 0 1.5rem 0 0 !important;
+}
+
+.modal .input-field.col label {
+    left: 0rem !important;
+}
+
+/*---HEADER--*/
+
+.avl-header{
+	height:70px;
+	position:fixed;
+	box-shadow: 0 2px 3px 0px rgba(0, 0, 0, 0.08) !important;
+	width:100%;
+	background:white;
+	z-index:100;
+}
+
+.avl-header img{
+	height: 89px;
+    margin: -2px 0 0 0
+	display:inline;
+}
+
+.avl-header h5{
+	display:inline;
+	position:absolute;
+	margin-top:22px;
+	margin-left:10px;
+	font-size: 1.74rem !important;
+	color:#49baff;
+	font-weight:700;
+}
+
+.avl-header ul{
+	display:inline;
+	height:45px;
+	float:right;
+	margin:25px 0 0 0;
+	font-size:17px;
+}
+
+.avl-header ul>a>li{
+	display:inline;
+	padding-left:12px;
+	padding-right:12px;
+	padding-bottom:20px;
+	color:#7d7d7d;
+	font-family:'Roboto';
+	transition:.1s;
+}
+
+.avl-header ul>a>li:hover{
+	border-bottom:4px solid #49baff;
+	color:black;
+}
+
+/*---MODAL----*/
+
+.btn:hover,.btn:focus{
+	background-color: #70c3f7!important;
+}
+
+.lgn.modal{
+ 	width:35% !important;
+}
+
+.m-container{
+	padding:5% 10%!important;
+}
+
+.m-container .avl-heading{
+	margin:0 auto 2rem auto!important;
+}
+
+.m-container .avl-heading h4{
+	margin:0 0 1rem 0 !important;
+}
+
+input[type=text]:focus:not([readonly]),input[type=password]:focus:not([readonly]),input[type=email]:focus:not([readonly]){
+    border-bottom: 1px solid #ffffff;
+    box-shadow: 0 1px 0 0 #49baff;
+}
+
+input[type=text]:focus:not([readonly])+label,input[type=password]:focus:not([readonly])+label,input[type=email]:focus:not([readonly])+label{
+	color:black!important;
+}
+
+.modal{
+	max-height:100%!important;
+	border:2px solid #49baff!important;
+}
+
+/*FILTER COLUMN*/
+.filter-fix{
+	position:relative;
+	top:70px;
+}
+
+.filter{
+	height:700px;
+	border-right:1px solid #eee;
+	padding-left: 30px !important;
+	position:fixed!important;
+}
+
+.filter h5{
+	font-size:1.4rem !important;
+}
+
+.houseType h5{
+	padding-top:20px;
+}
+
+.houseType ul li{
+	margin-bottom: 4px !important;
+}
+
+input[type="checkbox"]{
+	border:1px solid #e0e0e0 !important;
+}
+
+input[type="checkbox"]:checked + label::after{
+	background-color:#49baff !important;
+	border: 1px solid #49baff !important;
+}
+.priceRange ul li{
+	margin-bottom: 4px !important;
+}
+
+input[type="checkbox"]{
+	border:1px solid #e0e0e0 !important;
+}
+
+/*---HOUSE CARD COLUMN--*/
+
+.chip-div{
+	height: 74px !important;
+}
+
+.card{
+	box-shadow:none !important;
+}
+
+.card.horizontal {
+	border:1px solid #eee!important;
+}
+
+.card.horizontal:hover {
+	border:1px solid #49baff!important;
+}
+
+.loc>p{
+	font-size:1.5rem!important;
+	font-weight:300;	
+	margin: 12px auto!important;
+}
+
+.rent>p{
+	font-size:1.4rem!important;
+	font-weight:300;	
+	margin: 12px auto!important;
+}
+
+.chip{
+	background-color:#f3f3ff!important;
+}
+
+.card.horizontal .card-image {
+	margin:1%;
+    width: 40% !important;
+	background-repeat:no-repeat;
+    background-size:contain;
+	background-position:50% 50%;
+	background-color:white;
+	filter: brightness(105%) contrast(95%);
+	border-right:1px solid #eee;
+}
+
+.card.horizontal .card-stacked {
+	padding:1%!important;
+}
+
+.card.horizontal .card-content{
+	padding:0px!important;
+}
+
+.card-container{
+	padding:0 4% !important;
+}
+
+.houses{
+	padding:0px !important;
+	position:relative !important;
+}
+
+.card h6{
+	color:#8e8e8e;
+	font-size: 1.4rem;	
+}
+
+.header-underline-h6{
+    width:30px; 
+    background-color: #49baff; 
+    padding-top: 1px;
+    margin-top: -5px;
+    margin-bottom: 9px;
+}
+
+.card-image img{
+    max-width: 150px;
+    max-height: 150px; 
+    min-width: 110px; 
+    min-height: 110px;	
+}
+
+.scroll-data{
+	overflow-y: scroll;
+	padding: 0 0 0 5%;
+}
+
+.card-action ul li:nth-child(1){
+	padding-left: 0!important;
+}
+
+.card-action ul li{
+	display: inline; 
+	padding-left: 30px;
+}
+
+@media only screen and (max-width: 540px) {
+
+	.card{
+		box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
+	}
+
+	.card .horizontal {
+		border:none!important;
+	}
+
+	.card-container{
+		padding:0 0 !important;
+	}
+
+	.card.horizontal .card-image.h_img{
+		width:35% !important;
+	}
+
+	.search-bar{
+		margin:0 0.75rem;
+	}
+
+	.lgn.modal{
+	 	width:80% !important;
+	}
+
+	.filter-fix {
+	    position: relative;
+	    top: 15px !important;
+	}
+}
